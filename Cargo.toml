@@ -1,0 +1,8 @@
+[package]
+name = "cuda-rbac"
+version = "0.1.0"
+edition = "2021"
+description = "Role-based access control — roles, permissions, capability sets, inheritance, and agent authorization"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
